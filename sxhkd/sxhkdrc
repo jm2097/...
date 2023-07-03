@@ -61,7 +61,7 @@ super + @space
     rofi -show combi -combi-modes "run,drun"
 
 super + shift + e
-	rofi -modi emoji -show emoji -emoji-format '{emoji}'
+	rofi -modi emoji -show emoji
 
 super + shift + x
  	find ~/github.com -mindepth 2 -maxdepth 2 | rofi -show -dmenu -i | xargs -I_ code _
